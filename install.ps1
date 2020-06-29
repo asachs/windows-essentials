@@ -14,7 +14,7 @@ winget install Microsoft.Edge -e
 
 Write-Host Installing communication tools
 winget install keybase
-winget install telegram
+winget install Telegram.TelegramDesktop
 winget install whatsapp
 winget install Microsoft.Teams
 winget install AgileBits.1Password
@@ -24,18 +24,18 @@ winget install 7zip.7zip
 winget install Microsoft.Onedrive
 
 Write-Host Installing developer environment tools
-winget install git.git
+winget install git.git -e
 winget install gnupg.Gpg4win
 winget install Axosoft.GitKraken
 winget install Docker.DockerDesktop
 winget install python.python
 winget install OpenJS.Nodejs
 winget install Golang.Go
-winget install Microsoft.dotnet
-winget install Microsoft.WindowsTerminal
-winget install Microsoft.VisualStudioCode
-winget install Microsfot.VisualStudio.Enterprise
-winget install Microsoft.Powershell
+winget install Microsoft.dotnet -e
+winget install Microsoft.WindowsTerminal -e 
+winget install Microsoft.VisualStudioCode -e
+winget install Microsfot.VisualStudio.Enterprise -e
+winget install Microsoft.Powershell -e
 winget install SourceFoundry.HackFonts
 
 
