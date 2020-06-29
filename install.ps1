@@ -35,7 +35,7 @@ winget install Microsoft.dotnet -e
 winget install Microsoft.WindowsTerminal -e 
 winget install Microsoft.VisualStudioCode -e
 winget install Microsfot.VisualStudio.Enterprise -e
-winget install Microsoft.Powershell -e
+winget install Microsoft.PowerShell -e
 winget install SourceFoundry.HackFonts
 
 
