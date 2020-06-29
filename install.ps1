@@ -10,7 +10,7 @@ if ((Get-Command winget -ErrorAction SilentlyContinue) -eq $null) {
 }
 
 Write-Host Installing browser
-winget install Microsoft.Edge
+winget install Microsoft.Edge -e
 
 Write-Host Installing communication tools
 winget install keybase
@@ -20,16 +20,16 @@ winget install Microsoft.Teams
 winget install AgileBits.1Password
 
 Write-Host Installing common utilities
-winget install 7zip
+winget install 7zip.7zip
 winget install Microsoft.Onedrive
 
 Write-Host Installing developer environment tools
-winget install git
+winget install git.git
 winget install gnupg.Gpg4win
 winget install Axosoft.GitKraken
 winget install Docker.DockerDesktop
-winget install python
-winget install node
+winget install python.python
+winget install OpenJS.Nodejs
 winget install Golang.Go
 winget install Microsoft.dotnet
 winget install Microsoft.WindowsTerminal
