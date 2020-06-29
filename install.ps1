@@ -17,6 +17,7 @@ winget install keybase
 winget install telegram
 winget install whatsapp
 winget install Microsoft.Teams
+winget install AgileBits.1Password
 
 Write-Host Installing common utilities
 winget install 7zip
@@ -33,17 +34,13 @@ winget install Golang.Go
 winget install Microsoft.dotnet
 winget install Microsoft.WindowsTerminal
 winget install Microsoft.VisualStudioCode
+winget install Microsfot.VisualStudio.Enterprise
 winget install Microsoft.Powershell
 winget install SourceFoundry.HackFonts
 
-Write-Host Installing gaming applications
-winget install GOG.Galaxy
-winget install Valve.Steam
-winget install OBSProject.OBSStudio
-winget install TeamSpeakSystems.TeamSpeakClient
 
-Write-Host Configure PowerShell
-Set-ExecutionPolicy Unrestricted
-$SetupScript = Invoke-WebRequest https://gist.githubusercontent.com/SPARTAN563/77ccb460948afd826365e85d226509a7/raw/setup.ps1
-$ScriptBlock = [ScriptBlock]::Create($SetupScript.Content)
-Invoke-Command -ScriptBlock $ScriptBlock
+#Write-Host Configure PowerShell
+#Set-ExecutionPolicy Unrestricted
+#$SetupScript = Invoke-WebRequest https://gist.githubusercontent.com/SPARTAN563/77ccb460948afd826365e85d226509a7/raw/setup.ps1
+#$ScriptBlock = [ScriptBlock]::Create($SetupScript.Content)
+#Invoke-Command -ScriptBlock $ScriptBlock
